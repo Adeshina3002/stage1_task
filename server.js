@@ -19,6 +19,6 @@ function requestHandler (req, res) {
     }
 }
 
-server.listen(PORT, HOSTNAME, () => {
+server.listen(PORT, () => {
     console.log(`Server listening at http://localhost:${PORT}`);
 })
