@@ -1,0 +1,6 @@
+{
+    "slackUsername": "Deji S.O",
+    "backend" : true,
+    "age" : 29,
+    "bio" : "My name is Oladeji Adeshina, I am ambitious and result driven. I am an intern at HNG9 to become a backend engineer"
+}
