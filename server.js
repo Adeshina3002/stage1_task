@@ -6,9 +6,10 @@ const fs = require ("fs")
 
 const {getUserData} = require ("./program")
 
-const HOSTNAME = "localhost"
+// const HOSTNAME = "localhost"
 
-const PORT = 2600
+
+const PORT = process.env.port || 2600
 
 const server = http.createServer(requestHandler)
 
@@ -19,5 +20,5 @@ function requestHandler (req, res) {
 }
 
 server.listen(PORT, HOSTNAME, () => {
-    console.log(`Server listening at http://${HOSTNAME}:${PORT}`);
+    console.log(`Server listening at http://localhost:${PORT}`);
 })
