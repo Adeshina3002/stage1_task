@@ -6,7 +6,7 @@ const fs = require ("fs")
 
 const {getUserData} = require ("./program")
 
-const HOSTNAME = "localhost"
+const HOSTNAME = 0.0.0.0
 
 const PORT = 2600
 
