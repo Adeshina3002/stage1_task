@@ -2,7 +2,7 @@ const fs = require ("fs")
 
 const path = require ("path")
 
-const userData = path.join(__dirname, "Procfile")
+const userData = path.join(__dirname, "folder", "userData.json")
 
 function getUserData (req, res) {
     res.setHeader("Content-Type", "application/json")
